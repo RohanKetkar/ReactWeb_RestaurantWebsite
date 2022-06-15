@@ -15,7 +15,7 @@ const useState = () => {
                     <span></span>
                     INCR
                 </div>
-                <div className='button2' onClick={() =>myNum >0 ? setMyNum(myNum-1):setMyNum(0)}>
+                <div className='button2' onClick={() =>myNum >0 ? setMyNum(myNum-1):setMyNum({myNum})}>
 
                     <span></span>
                     <span></span>
