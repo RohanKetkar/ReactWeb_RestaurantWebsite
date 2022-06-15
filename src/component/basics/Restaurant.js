@@ -17,7 +17,7 @@ const Restaurant = () => {
     // console.log(menuData);
 
     const filterItem = (category) =>{
-        if(category=='All'){
+        if(category==='All'){
             setMenuData(Menu);
             return;
         }

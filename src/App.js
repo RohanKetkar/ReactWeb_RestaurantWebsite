@@ -1,10 +1,14 @@
 import React from 'react'
 import Restaurant from './component/basics/Restaurant';
+import UseState from './component/Hooks/useState';
+
 
 
 const App = () => {
   return (
-    <><Restaurant/></>
+    <>
+    <UseState/>
+    </>
   )
 }
 
